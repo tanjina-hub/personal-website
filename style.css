@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    font-family: 'Merriweather', serif;
+}
+h1{
+    font-size: 50px;
+
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+    text-align: center;
+}
+H4{
+    text-align: center;
+}
+h5{
+    text-align: center;
+}
+p{
+   color: dimgray; 
+}
+.name-highlight{
+    color: blueviolet;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.header-bg{
+
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 600px;
+    padding-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(royalblue, blueviolet);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.about-me-bg{
+    background-image: url("images/about-me-bg.png");
+    max-width: 100%;
+    height: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+* {
+    box-sizing: border-box;
+  }
+.image{
+  float: left;
+  width: 33.3%;
+  padding: 5px;
+}
+.experience::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.lateset-work-bg{
+    background-image: url("images/latest-work-bg.png");
+    background-position: right;
+    background-repeat: no-repeat;
+
+}
+.review{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: ;
+    text-align: center;
+}
+.contact-me{
+
+    text-align: center;
+    background-color: blueviolet;
+    margin: auto;
+    width: 45%;
+    height: 120px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.contact-title{
+
+    color: whitesmoke;
+    font-size: small;
+}
+.email{
+
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer p{
+    text-align: center;
+    text-size: 10px;
+}
